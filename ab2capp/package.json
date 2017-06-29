@@ -1,0 +1,19 @@
+{
+  "name": "backend-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "author": "dzielke",
+  "license": "",
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "scripts": {
+    "start": "node app-adal.js"
+  },
+  "dependencies": {
+    "request": "~2.81.0",
+    "passport": "^0.3.2",
+    "passport-azure-ad": "^3.0.4",
+    "adal-node": "~0.1.22"
+  }
+}
